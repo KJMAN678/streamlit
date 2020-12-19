@@ -10,8 +10,8 @@ import lightgbm as lgb
 from sklearn.metrics import mean_squared_error
 from sklearn.metrics import r2_score
 
-st.title('エイムズ州のHousePriceバリデーション')
-st.header('データセット:kaggleのHousePriceコンペ')
+st.title('kaggleのHousePriceコンペのtrain.csvのSalePrice予測')
+st.header('使用しているモデル lightGBM')
 
 # サイドバー
 # ファイルアップロード
